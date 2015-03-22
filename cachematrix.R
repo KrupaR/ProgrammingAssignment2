@@ -31,3 +31,10 @@ cacheSolve <- function(x, ...) {
     x$setinverse(invMatrix)
     invMatrix
 }
+
+##Inputs for testing
+##my_matrix <- matrix(rnorm(16),nrow=4,ncol=4)
+##my_inv_matrix= makeCacheMatrix(my_matrix)
+##my_inv_matrix$get()
+##cacheSolve(my_inv_matrix)
+##cacheSolve(my_inv_matrix)
